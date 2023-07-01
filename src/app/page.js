@@ -59,8 +59,8 @@ export default function Home({}) {
           {data.map((item) => (
             <Box
               sx={{
-                width: "400px",
-                height: "400px",
+                width: "300px",
+                height: "300px",
                 display: "flex",
                 flexDirection: "column",
                 gap: "30px",
@@ -73,24 +73,25 @@ export default function Home({}) {
             >
               <Typography
                 sx={{
-                  fontSize: "20px",
+                  fontSize: "18px",
                   fontWeight: "700",
                   lineHeight: "20px",
                   color: "black",
                   textOverflow: "ellipsis",
                   maxHeight: "20px",
                   overflow: "hidden",
+                  textAlign: "center",
                 }}
               >
                 {item.title}
               </Typography>
               <Box
                 sx={{
-                  fontSize: "18px",
+                  fontSize: "14px",
                   fontWeight: "400",
                   textOverflow: "ellipsis",
-                  maxHeight: "130px",
                   overflow: "hidden",
+                  Width: "200px",
                 }}
               >
                 {item.body}
